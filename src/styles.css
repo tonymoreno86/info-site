@@ -1,0 +1,168 @@
+body {
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  background-color: #242527;
+  margin: 10px auto;
+  width: 550px;
+}
+
+.card-container {
+  margin: 0 auto;
+  padding: 44px 117px 44px 116px;
+  width: 317px;
+}
+
+/* Photo Component Styles */
+
+img {
+  border-radius: 10px 10px 0 0;
+  display: block;
+  margin: auto;
+  width: 317px;
+}
+
+/* Info component styles */
+
+.info-container {
+  background-color: #1a1b21;
+  padding: 21px 34px 24px 36px;
+}
+
+.main-info {
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 6.19px;
+}
+
+.content {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.job-title {
+  color: #f3bf99;
+  font-size: 12.8px;
+  line-height: 15.49px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.website-link a {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.buttons {
+  padding-bottom: 33px;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  color: #374151;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-right: 17px;
+  padding: 9px 28px;
+}
+
+.btn:visited {
+  color: #374151;
+}
+
+.btn2 {
+  background-color: #5093e2;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 9px 18px 9px 17.33px;
+}
+
+.btn2:visited {
+  color: #ffffff;
+}
+
+.btn,
+.btn2 {
+  text-decoration: none;
+}
+
+.about-section {
+  padding-bottom: 26px;
+}
+
+.about-section h3,
+.interests-section h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+
+.about-section h3,
+.interests-section h3 {
+  padding-bottom: 5px;
+}
+
+.about-section p,
+.interests-section p {
+  color: #ffffff;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  margin: 0;
+}
+
+/* Social Icons styles */
+
+.social-icons-container {
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
+
+.icons {
+  color: #918e9b;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.social-links {
+  color: #918e9b;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.social-links:hover {
+  color: #f8f8f8;
+}
+
+.fab:first-child {
+  margin-left: 0;
+}
+
+.fab:last-child {
+  margin-right: 0;
+}
